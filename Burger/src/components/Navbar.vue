@@ -1,11 +1,13 @@
+
 <template>
+    
        <div id="nav">   
         <RouterLink tp="/">
             <img src="" id="logo">
         </RouterLink>   
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>    
-    </div> 
+        </div> 
     
 </template>
 <script>
