@@ -1,23 +1,21 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import AboutViewVue from './views/AboutView.vue';
-import HomeViewVue from './views/HomeView.vue';
+<template> 
+  <Navbar/>
+  <RouterView />
+  <Footer />
+ </template>
+
+<script>
+/*import { RouterLink, RouterView } from 'vue-router'
+import About from './views/About.vue';
+import Home from './views/Home.vue';*/
+import Navbar from './components/Navbar.vue';
+import Footer from './components/Footer.vue';
+
+export default {
+  components:{
+    Navbar,
+    Footer
+  }
+}
 
 </script>
-
-<template>
-  <header>
-    
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView />
-</template>
-
-<style>
-
-</style>
