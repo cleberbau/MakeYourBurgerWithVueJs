@@ -1,5 +1,8 @@
 <template>
-    <div>Eu sou um Footer</div>
+   <footer id="footer"> 
+    <p>Make Tour Burger &copy; 2023</p>
+   </footer>
+
 </template>
 <script>
 
@@ -9,5 +12,20 @@ export default {
 }
 </script>
 <style scoped>
+#footer{
+    height:200px;
+    background-color: #222;
+    border-top: 4px solid #111;
+    color: #FCBA03;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    bottom:0;
+    
+    
+
+
+}
 
 </style>
