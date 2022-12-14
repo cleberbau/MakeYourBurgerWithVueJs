@@ -2,6 +2,7 @@
   <Navbar :logo="logo_src" :alt="app_name" />
    
   <router-view></router-view>
+
   <Footer/>
   
   </template>
@@ -14,7 +15,8 @@ export default {
   name: "App",
   components:{
     Navbar,
-    Footer
+    Footer,
+   
   },
   data(){
     return{

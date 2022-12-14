@@ -13,7 +13,7 @@ export default {
 </script>
 <style scoped>
 #footer{
-    height:200px;
+    height:100px;
     background-color: #222;
     border-top: 4px solid #111;
     color: #FCBA03;
@@ -22,6 +22,7 @@ export default {
     justify-content: center;
     width: 100%;
     bottom:0;
+   
     
     
 
